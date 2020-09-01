@@ -1,0 +1,231 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+legend {
+  color: blue;
+  font-weight: bold;
+}
+button {
+  border-style: groove;
+  border-width: 7px;
+  border-color:#4141fe; 
+  color: white;
+  background-color: #4141fe
+}
+.box.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  height: 1000px;
+  color:black;
+  font-family: "Calibri";
+}
+
+.box span {
+  align-items: center;
+  color: #84613D;
+}
+.box .mid-container {
+  text-align: center;
+}
+
+.box .mid-container p {
+  justify-content: center;
+  width: 144px;
+  display: flex;
+}
+
+.box .mainContainer {
+  display: flex;
+}
+.box .mainContainer > div {
+  margin: .25rem;
+  padding: .25rem;
+}
+.box .mainContainer > div > fieldset {
+  height: 220px;
+}
+
+.fieldItems {
+  margin-bottom: 32px;
+}
+
+.market-analysis {
+  display: flex;
+  justify-content: center;
+}
+
+#hourly {
+  width:200px;
+}
+
+#hourly input {
+  width:55px;
+  margin-left:50px;
+  padding-left: 6px;
+}
+#hourly label {
+  width:56px;
+}
+
+#hourly > div {
+  width:181px;
+  margin: 20px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.market-analysis {
+
+}
+#hourly button {
+  width:100%;
+}
+.documentsPending fieldset {
+  font-size:12px;
+}
+.documentsPending .footer {
+  font-size: 10px;
+  position: relative;
+  top: 7px;
+}
+
+.emp-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.employmentContainer {
+  min-width:300px;
+}
+
+.docContainer, .fieldContainer {
+  width: 186px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.docContainer p {
+  height: 50%;
+  align-self: flex-end;
+}
+
+.docContainer {
+  border: 1px solid lightgray;
+  height: 125px;
+}
+
+.status {
+  margin-right: 10px;
+}
+
+.empty {
+  opacity: 0;
+}
+
+.uploads span{
+  display: flex;
+}
+
+.learnMore button {
+  margin-left:55px;
+}
+
+.fieldItems {
+  font-size:11px;
+}
+
+.documentsPending .uploads .icons {
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+}
+.documentsPending .uploads .add {
+  background: url(./Icons/plus.svg)
+}
+.documentsPending .uploads .edit {
+  background: url(./Icons/Pencil.svg)
+}
+.documentsPending .uploads .delete {
+  background: url(./Icons/close.svg)
+}
+.employmentContainer legend {
+  display:flex;
+}
+.employmentContainer .info {
+  background: url(./Icons/info.svg);
+  width: 13px;
+  height: 13px;
+  margin-top: 5px;
+}
+
+.uploadGroup {
+  display:flex;
+  justify-content: space-between;
+}
+
+.btnGroup {
+  width: 25px;
+  display: flex;
+}
+
+.btnGroup .hidden {
+  display: none;
+}
+
+#miles, #miles input {
+  width: 230px;
+  display: flex;
+}
+
+#miles::before {
+  content: "10 ";
+}
+#miles::after {
+  content: " 100";
+}
+#milesSelected {
+  margin-left: 100px;
+}
+#milesSelected.hidden {
+  display:none;
+}
+
+#locationPreferences {
+  width: 260px;
+}
+
+.required {
+  color: red;
+}
+
+.rateFields::before {
+  content: "$";
+  position: relative;
+  left: 115px;
+  top: 11px;
+  transform: translateY(-50%);
+}
